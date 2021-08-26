@@ -1,0 +1,23 @@
+@font-face {
+	font-family: Michroma;
+	src: url(assets/Michroma-Regular.ttf)
+}
+body {
+	font-family: Michroma;
+	background-color: #ffffff;
+	color: #ffffff;
+}
+
+section {
+	min-height: 100vh;
+  display : flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 9vmin;
+  text-align: center;
+}
+
+h1 {
+	position: absolute;
+	font-size: 60px;
+}
