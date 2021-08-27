@@ -1,0 +1,22 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {	
+	background-color: #222222;
+	color: #ffffff;
+  
+  display: flex;
+}
+
+canvas {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vmax;
+  height: 100vmax;
+  pointer-events: none;
+  z-index: -1;
+}
+
