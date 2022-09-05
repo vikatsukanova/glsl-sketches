@@ -28,8 +28,8 @@ const sketches = [
 
 let str = "";
 
-sketches.forEach(function(sketch) {
-  str += `<a href=${sketch.url}><div>${sketch.name}</div></a>`;
+sketches.forEach(function(sketch, index) {
+  str += `<a id="sketches-links" href=${sketch.url}><div>${sketch.name}</div><div class="number">${index+1}</div></a>`;
 }); 
 
 document.getElementById("sketches").innerHTML = str;
