@@ -8,35 +8,69 @@
 	src: url(assets/necto-mono.woff2);
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	font-family: Necto Mono;
 	background-color: black;
 	color: #ffffff;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 main {
-	height: 100%;
-	margin: 50px 30px;
-
+	margin: 100px;
+	display: flex;
 }
 
 header {
 	line-height:  0.5;
 }
 
-section {
-	font-size: 60px;
-	margin-top:  50px;
+h1 {
+	font-size: 30px;
 }
 
+#about {
+	font-size: 30px;
+	flex: 1;
+}
+
+#sketches {
+	font-size: 60px;
+	flex: 2;
+	margin-left: 280px;
+}
+
+#sketches-links {
+	font-family: Michroma;
+	margin: 15px;
+}
 
 a {
-	font-family: Michroma;
 	color:  white;
+	text-decoration: none;
+	display: flex;
 }
 
 a:hover {
 	color:  blue;
+}
+
+.number {
+	font-size: 20px;
+  margin-left: 8px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 40px;
+	font-size: 20px;
 }
 
 canvas {
